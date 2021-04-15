@@ -1,0 +1,112 @@
+
+body{
+    /*
+    background-color: #f4f4f4;
+    color: #555555;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: initial; */
+    font: 24px ;
+    line-height: 1.5em;
+}
+a{
+    text-decoration: none;
+    color:  grey ;
+}
+a:hover{
+    color:blue;
+}
+
+
+.art-1{
+    color: blue;
+    background-color: #fff;
+    border: 5px  rgb(80, 80, 105) solid;
+    padding : 10px;
+    margin: 10px;
+}
+.art-2{
+    
+    border: red dotted 5px;
+    margin: 10px;
+    padding: 10px;
+    color: green;
+}
+.art-3{
+    color: #f23576;
+    margin-bottom: 100px;  
+}
+.categories{
+    border: 2px rgb(153, 11, 11) solid;
+    border-radius: 10px;
+}
+#omg{
+    float:right;
+    width: 30%;
+}
+.categories h3{
+    text-align: center;
+    text-decoration:crimson;
+
+}
+.fix{
+    position: fixed;
+    top:20px;
+    right: 30px;
+}
+.container{
+    margin-left: 20px;
+    margin-top: 30px;
+    
+    height: 500px;
+    width:50%;
+    border: 5px violet dotted;
+    position: absolute;
+    background-image: url("images/capture.PNG");
+}
+.container h1{
+    bottom: 300px;
+    
+    position: absolute;
+    text-align: center;
+}
+.aside{
+    float: right;
+    width: 20%;
+    height:100%;
+    border:5px green dotted;
+    box-sizing: border-box;
+}
+.categories ul{
+    list-style: none;
+}
+.categories li{
+    border-bottom: 2px dotted #000;
+    padding-bottom: 5px;
+}
+.myform{
+    border:red 2px solid;
+    padding-bottom: 30px;
+}
+.myform:hover {
+    background-color: pink;
+}
+.but:hover{
+    background: green;
+    border:none;
+
+}
+.myform label{
+    display: block;
+}
+.myform input[type="text"], .myform textarea{
+    padding: 10px ;
+    width: 80%;
+}
+.myform input[type ="submit"] {
+    background-color: red;
+    padding: 5px;
+    margin-top: 20px;
+    border: none;
+}
